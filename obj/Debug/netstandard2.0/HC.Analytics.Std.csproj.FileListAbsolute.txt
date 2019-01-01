@@ -1,0 +1,16 @@
+C:\HC\HC.Analytics.Std\bin\Debug\netstandard2.0\libzmq.dll
+C:\HC\HC.Analytics.Std\bin\Debug\netstandard2.0\SQLite.Interop.dll
+C:\HC\HC.Analytics.Std\bin\Debug\netstandard2.0\Accord.dll.config
+C:\HC\HC.Analytics.Std\bin\Debug\netstandard2.0\HC.Analytics.Std.deps.json
+C:\HC\HC.Analytics.Std\bin\Debug\netstandard2.0\HC.Analytics.Std.dll
+C:\HC\HC.Analytics.Std\bin\Debug\netstandard2.0\HC.Analytics.Std.pdb
+C:\HC\HC.Analytics.Std\bin\Debug\netstandard2.0\HC.Core.Std.dll
+C:\HC\HC.Analytics.Std\bin\Debug\netstandard2.0\HC.Core.Std.pdb
+C:\HC\HC.Analytics.Std\bin\Debug\netstandard2.0\HC.Core.Std.dll.config
+C:\HC\HC.Analytics.Std\obj\Debug\netstandard2.0\HC.Analytics.Std.csprojAssemblyReference.cache
+C:\HC\HC.Analytics.Std\obj\Debug\netstandard2.0\HC.Analytics.Std.csproj.CoreCompileInputs.cache
+C:\HC\HC.Analytics.Std\obj\Debug\netstandard2.0\HC.Analytics.Std.AssemblyInfoInputs.cache
+C:\HC\HC.Analytics.Std\obj\Debug\netstandard2.0\HC.Analytics.Std.AssemblyInfo.cs
+C:\HC\HC.Analytics.Std\obj\Debug\netstandard2.0\HC.Analytics.Std.csproj.CopyComplete
+C:\HC\HC.Analytics.Std\obj\Debug\netstandard2.0\HC.Analytics.Std.dll
+C:\HC\HC.Analytics.Std\obj\Debug\netstandard2.0\HC.Analytics.Std.pdb

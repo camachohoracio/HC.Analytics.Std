@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix.csproj", "{4BC34AF2-F36F-4F82-B6C6-B273125549A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQuant.Analytics.Mathematics", "..\OpenQuant\Analytics\Mathematics\Base\OpenQuant.Analytics.Mathematics.csproj", "{F7845FF0-8335-45DE-9E9D-DE63682AE8A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQuant.Core", "..\OpenQuant\Core\Base\OpenQuant.Core.csproj", "{40BB247A-7C23-430D-BA6A-07DE257640C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQuant", "..\OpenSource2\OpenQuant.csproj", "{DF50A3D7-E467-4007-B9EB-41C8501E0A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQuant.Analytics.Probability.Distributions.Base", "..\OpenSource2\Analytics\Probability\Distributions\Base\OpenQuant.Analytics.Probability.Distributions.Base.csproj", "{256304BF-9B9E-4FA2-9979-43C6887CF62E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQuant.Analytics.Probability.Random", "..\OpenSource2\Analytics\Probability\Random\OpenQuant.Analytics.Probability.Random.csproj", "{920ECB0A-F16B-42DD-8CE6-B4147CC7E1B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQuant.Analytics.Mathematics.LinearAlgebra", "..\OpenSource2\Analytics\Mathematics\LinearAlgebra\OpenQuant.Analytics.Mathematics.LinearAlgebra.csproj", "{2E0A8FDF-1E71-41F4-8005-F1F978A87A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQuant.Analytics.Statistics", "..\OpenSource2\Analytics\Statistics\OpenQuant.Analytics.Statistics.csproj", "{7D079A1E-2E56-4EB4-B1CD-9314002FAA50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQuant.Core.Io", "..\OpenSource2\Core\Io\OpenQuant.Core.Io.csproj", "{87C38BBC-3D7E-4845-894F-0102D606C7DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQuant.Biz.Io", "..\OpenSource2\Biz\Io\OpenQuant.Biz.Io.csproj", "{DB52A30E-8AD7-4CDC-B51A-D9ED964FBB57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC34AF2-F36F-4F82-B6C6-B273125549A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC34AF2-F36F-4F82-B6C6-B273125549A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC34AF2-F36F-4F82-B6C6-B273125549A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC34AF2-F36F-4F82-B6C6-B273125549A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7845FF0-8335-45DE-9E9D-DE63682AE8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7845FF0-8335-45DE-9E9D-DE63682AE8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7845FF0-8335-45DE-9E9D-DE63682AE8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7845FF0-8335-45DE-9E9D-DE63682AE8A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BB247A-7C23-430D-BA6A-07DE257640C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BB247A-7C23-430D-BA6A-07DE257640C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BB247A-7C23-430D-BA6A-07DE257640C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BB247A-7C23-430D-BA6A-07DE257640C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF50A3D7-E467-4007-B9EB-41C8501E0A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF50A3D7-E467-4007-B9EB-41C8501E0A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF50A3D7-E467-4007-B9EB-41C8501E0A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF50A3D7-E467-4007-B9EB-41C8501E0A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256304BF-9B9E-4FA2-9979-43C6887CF62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256304BF-9B9E-4FA2-9979-43C6887CF62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256304BF-9B9E-4FA2-9979-43C6887CF62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256304BF-9B9E-4FA2-9979-43C6887CF62E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920ECB0A-F16B-42DD-8CE6-B4147CC7E1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920ECB0A-F16B-42DD-8CE6-B4147CC7E1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920ECB0A-F16B-42DD-8CE6-B4147CC7E1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920ECB0A-F16B-42DD-8CE6-B4147CC7E1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E0A8FDF-1E71-41F4-8005-F1F978A87A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0A8FDF-1E71-41F4-8005-F1F978A87A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0A8FDF-1E71-41F4-8005-F1F978A87A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0A8FDF-1E71-41F4-8005-F1F978A87A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D079A1E-2E56-4EB4-B1CD-9314002FAA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D079A1E-2E56-4EB4-B1CD-9314002FAA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D079A1E-2E56-4EB4-B1CD-9314002FAA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D079A1E-2E56-4EB4-B1CD-9314002FAA50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C38BBC-3D7E-4845-894F-0102D606C7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C38BBC-3D7E-4845-894F-0102D606C7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C38BBC-3D7E-4845-894F-0102D606C7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C38BBC-3D7E-4845-894F-0102D606C7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB52A30E-8AD7-4CDC-B51A-D9ED964FBB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB52A30E-8AD7-4CDC-B51A-D9ED964FBB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB52A30E-8AD7-4CDC-B51A-D9ED964FBB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB52A30E-8AD7-4CDC-B51A-D9ED964FBB57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>HC.Analytics</AssemblyName>
+    <RootNamespace>HC.Analytics</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AlgLib\**" />
+    <Compile Remove="Encog\**" />
+    <Compile Remove="QlNet\**" />
+    <EmbeddedResource Remove="AlgLib\**" />
+    <EmbeddedResource Remove="Encog\**" />
+    <EmbeddedResource Remove="QlNet\**" />
+    <None Remove="AlgLib\**" />
+    <None Remove="Encog\**" />
+    <None Remove="QlNet\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="TimeSeries\TsStats\IncrWeightedStats.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Accord" Version="3.8.0" />
+    <PackageReference Include="Accord.MachineLearning.GPL" Version="3.8.0" />
+    <PackageReference Include="algLibNetStandard" Version="1.0.0" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="QLNet" Version="1.11.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HC.Core.Std\HC.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Encog">
+      <HintPath>..\bin\AssemblyCache\Encog\bin\Release\netstandard2.0\Encog.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

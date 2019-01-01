@@ -1,0 +1,115 @@
+/*
+ *    This program is free software; you can redistribute it and/or modify
+ *    it under the terms of the GNU General Public License as published by
+ *    the Free Software Foundation; either version 2 of the License, or
+ *    (at your option) any later version.
+ *
+ *    This program is distributed in the hope that it will be useful,
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *    GNU General Public License for more details.
+ *
+ *    You should have received a copy of the GNU General Public License
+ *    along with this program; if not, write to the Free Software
+ *    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+ */
+
+/*
+ *    Option.java
+ *    Copyright (C) 1999 Eibe Frank
+ *
+ */
+
+//package weka.core;
+
+/** 
+ * Class to store information about an option. <p>
+ *
+ * Typical usage: <p>
+ *
+ * <code>Option myOption = new Option("Uses extended mode.", "E", 0, "-E")); </code><p>
+ *
+ * @author Eibe Frank (eibe@cs.waikato.ac.nz)
+ * @version $Revision: 1.5 $
+ */
+namespace HC.Analytics.MachineLearning.NaiveBayes.Impl2_Weka
+{
+
+    public class Option
+    {
+
+        /** What does this option do? */
+        private string m_Description;
+
+        /** The synopsis. */
+        private string m_Synopsis;
+
+        /** What's the option's name? */
+        private string m_Name;
+
+        /** How many arguments does it take? */
+        private int m_NumArguments;
+
+        /**
+         * Creates new option with the given parameters.
+         *
+         * @param description the option's description
+         * @param name the option's name
+         * @param numArguments the number of arguments
+         */
+        public Option(string description, string name,
+              int numArguments, string synopsis)
+        {
+
+            m_Description = description;
+            m_Name = name;
+            m_NumArguments = numArguments;
+            m_Synopsis = synopsis;
+        }
+
+        /**
+         * Returns the option's description.
+         *
+         * @return the option's description
+         */
+        public string description()
+        {
+
+            return m_Description;
+        }
+
+        /**
+         * Returns the option's name.
+         *
+         * @return the option's name
+         */
+        public string name()
+        {
+
+            return m_Name;
+        }
+
+        /**
+         * Returns the option's number of arguments.
+         *
+         * @return the option's number of arguments
+         */
+        public int numArguments()
+        {
+
+            return m_NumArguments;
+        }
+
+        /**
+         * Returns the option's synopsis.
+         *
+         * @return the option's synopsis
+         */
+        public string synopsis()
+        {
+
+            return m_Synopsis;
+        }
+    }
+
+}
